@@ -1,7 +1,7 @@
 require 'pry'
 
 class Artist
-
+extend Findable
 extend Memorable
 include Paramable
 
